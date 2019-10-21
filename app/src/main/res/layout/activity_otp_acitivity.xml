@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".OtpAcitivity">
+
+    <RelativeLayout
+        android:id="@+id/topPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorBlue">
+
+        <ImageButton
+            android:id="@+id/btn_back_otp"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@color/colorBlue"
+            android:src="@drawable/ic_keyboard_arrow_left_black_24dp" />
+
+        <TextView
+            android:id="@+id/tv_otp_verification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/tv_otp_verification"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_medium" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topPanel"
+        android:layout_marginTop="@dimen/marginTop_medium"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+
+            android:id="@+id/et_otp"
+              android:hint="@string/et_hint_enter_otp"
+            android:layout_marginTop="@dimen/marginTop_medium"
+            style="@style/EditTextTheme"
+            android:background="@color/colorWhite"
+            android:inputType="number"
+            android:maxLength="4" />
+
+
+        <Button
+
+            android:id="@+id/btn_otp_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            android:background="@color/colorBlue"
+            android:text="@string/btn_submit"
+            android:textColor="@color/colorWhite" />
+
+    </RelativeLayout>
+</RelativeLayout>

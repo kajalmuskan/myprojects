@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.khatabookapp">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.AddNewCustomer"></activity>
+        <activity
+            android:name=".activity.CustomerDashboardActivity"
+            android:label="@string/title_activity_customer_dashboard" />
+        <activity
+            android:name=".OtpAcitivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activity.SignupBusinessActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".activity.DashboardActivity" />
+        <activity
+            android:name=".activity.SignupNameActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activity.SignupNumberActivity"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

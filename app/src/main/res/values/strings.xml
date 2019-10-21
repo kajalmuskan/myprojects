@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">KhataBook App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_your_phone_number">Your Phone Number</string>
+    <string name="btn_number_next">NEXT</string>
+    <string name="et_hint_enter_your_number">Enter Your Number</string>
+    <string name="tv_your_name">Your Name</string>
+    <string name="et_hint_enter_your_name">Enter Your Name</string>
+    <string name="tv_business_name">Business Name</string>
+    <string name="et_hint_enter_your_business_name">Enter Your Business Name</string>
+    <string name="tv_otp_verification">Verify Phone Number</string>
+    <string name="btn_resend">Resend</string>
+    <string name="btn_submit">Submit</string>
+    <string name="tv_swiggy">KhataBook</string>
+    <string name="menu_khata_setting">Khata Setting</string>
+    <string name="menu_how_to_use">How To Use</string>
+    <string name="menu_contact_us">Contact us</string>
+    <string name="menu_share_app">Share App</string>
+    <string name="title_activity_dashboard_nevigator">DashboardNevigatorActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">KhataBook</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Khata Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="et_hint_enter_otp">Enter OTP</string>
+    <string name="title_activity_customer_dashboard">CustomerDashboardActivity</string>
+    <string name="tv_home_msg_khatabook_and_20_lac_businessmen_are_using_khatabook">KhataBook and 20 Lac businessmen are using\ Khatabook</string>
+    <string name="tv_khatabook">KhataBook</string>
+    <string name="btn_create_new_khatabook">  +CREATE NEW KHATABOOK </string>
+    <string name="btn_app_lock">App Lock</string>
+    <string name="btn_app_language">App Language</string>
+</resources>

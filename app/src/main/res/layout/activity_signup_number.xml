@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SignupNumberActivity">
+
+    <ImageView
+        android:id="@+id/img_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_medium"
+        android:src="@drawable/ic_phone_android_black_24dp" />
+
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_phone_number"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tv_your_phone_number"
+
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/et_number"
+        style="@style/EditTextTheme"
+        android:layout_below="@id/tv_number"
+        android:layout_marginTop="@dimen/marginTop_medium"
+        android:hint="@string/et_hint_enter_your_number"
+
+        android:inputType="number" />
+
+
+    <Button
+        android:id="@+id/btn_number_next"
+        style="@style/ButtonTheme"
+        android:layout_alignParentBottom="true"
+
+        android:text="@string/btn_number_next" />
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SignupBusinessActivity">
+    <ImageView
+        android:id="@+id/img_business"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_medium"
+        android:src="@drawable/ic_business_center_black_24dp" />
+
+    <TextView
+        android:id="@+id/tv_business"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_business"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tv_business_name"
+
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/et_business"
+        style="@style/EditTextTheme"
+        android:layout_below="@id/tv_business"
+        android:layout_marginTop="@dimen/marginTop_medium"
+        android:hint="@string/et_hint_enter_your_business_name"
+        />
+
+
+    <Button
+        android:id="@+id/btn_business_next"
+        style="@style/ButtonTheme"
+        android:layout_alignParentBottom="true"
+
+        android:text="@string/btn_number_next" />
+
+</RelativeLayout>
